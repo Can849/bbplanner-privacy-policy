@@ -1,12 +1,10 @@
-# BB助手隐私政策
+# BB小助手隐私政策
 
-本仓库用于公开提供 BB助手（com.thomas.bbplanner）的隐私政策。
+应用包名：com.thomas.bbplanner
+
+个人开发者：何波
 
 公开网页：https://can849.github.io/bbplanner-privacy-policy/
-
-应用名称：BB助手
-
-维护者：Thomas
 
 联系邮箱：364045536@qq.com
 
