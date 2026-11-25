@@ -1,161 +1,17 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>BB助手 隐私政策</title>
-<meta name="description" content="BB助手（com.thomas.bbplanner）隐私政策：全部数据保存在本机，不收集个人信息，无账号与云同步。">
-<style>
-:root{--ink:#1f2328;--muted:#57606a;--line:#e6e8eb;--bg:#ffffff;--accent:#5154DD;--soft:#f6f7f9}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.85}
-.wrap{max-width:720px;margin:0 auto;padding:40px 22px 72px}
-header{border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:8px}
-h1{font-size:26px;line-height:1.35;margin:0 0 10px;letter-spacing:-.01em}
-.meta{color:var(--muted);font-size:13px;margin:0}
-.summary{background:var(--soft);border-radius:12px;padding:16px 18px;margin:24px 0 8px;font-size:14px;color:#2b3138}
-.summary strong{font-weight:600}
-h2{font-size:17px;margin:36px 0 12px;letter-spacing:-.01em}
-h2 .n{color:var(--accent);margin-right:8px;font-variant-numeric:tabular-nums}
-p{margin:0 0 12px}
-ul{margin:0 0 14px;padding-left:20px}
-li{margin:0 0 8px}
-table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:13.5px}
-th,td{text-align:left;padding:10px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-th{font-weight:600;color:var(--muted);font-size:12.5px;background:var(--soft)}
-td code{background:var(--soft);padding:1px 5px;border-radius:4px;font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all}
-.tag{display:inline-block;font-size:12px;padding:1px 7px;border-radius:999px;background:#eef0ff;color:#3b3eb0;white-space:nowrap}
-.tag.no{background:#f0f1f3;color:#5b6470}
-.note{border-left:3px solid var(--accent);padding:2px 0 2px 14px;color:#2b3138;margin:16px 0}
-footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(81,84,221,.3)}
-a:hover{border-bottom-color:var(--accent)}
-@media(prefers-color-scheme:dark){
-:root{--ink:#e8eaed;--muted:#9aa3ad;--line:#2b2f36;--bg:#15171a;--soft:#1d2025}
-.summary{color:#d5d9de}
-.tag{background:#262a3d;color:#b9bcff}
-.tag.no{background:#24272c;color:#9aa3ad}
-body{background:var(--bg)}
-}
-@media(max-width:480px){
-.wrap{padding:28px 18px 56px}
-h1{font-size:22px}
-th,td{padding:9px 8px;font-size:13px}
-}
-</style>
-</head>
-<body>
-<div class="wrap">
-
-<header>
-  <h1>BB助手 隐私政策</h1>
-  <p class="meta">适用版本：0.1.22 及以后　·　生效日期：2026 年 11 月 25 日　·　更新日期：2026 年 11 月 25 日</p>
-</header>
-
-<div class="summary">
-  <strong>一句话说明：</strong>BB助手是一个纯离线的个人计划工具。你的任务、目标、打卡记录全部保存在手机本机，应用不申请网络权限，不做账号登录，不做云同步，也不向任何第三方提供你的数据。
-</div>
-
-<h2><span class="n">1</span>开发者与适用范围</h2>
-<p>BB助手（应用包名 <code>com.thomas.bbplanner</code>，以下简称“本应用”）由个人开发者 Thomas 独立开发并维护。</p>
-<p>本政策说明本应用如何处理你的信息，适用于你在 Android 设备上安装和使用本应用的全部场景。</p>
-
-<h2><span class="n">2</span>资料的保存位置</h2>
-<p>任务、目标、打卡、附件、计划原文和草稿保存在应用的私有空间，仅用于在设备上显示和管理你的安排。这些数据不会上传到任何服务器。</p>
-<p>本应用<strong>不申请网络权限</strong>（<code>android.permission.INTERNET</code>），从系统层面无法联网传输数据。</p>
-<p>你可以随时在应用内删除对应内容并清空回收站，或在系统设置中清除本应用数据。你另存的备份文件、以及写入系统日历的日程，由你自行管理。</p>
-<ul>
-  <li>不收集设备标识符、位置、通讯录、短信、照片等信息；</li>
-  <li>不创建账号，不要求手机号或邮箱注册；</li>
-  <li>不接入任何第三方统计、广告、推送或数据采集 SDK。</li>
-</ul>
-
-<h2><span class="n">3</span>权限使用清单</h2>
-<p>下列权限用于提醒、专注计时和系统日历等功能。需要你授权的项目会通过系统提示或设置页开启；部分权限由系统随安装授予，不会单独弹出授权窗口。你可以选择不使用相关功能，本机排期与打卡仍可使用。</p>
-<table>
-  <thead>
-    <tr><th style="width:38%">权限</th><th>用途</th><th style="width:14%">性质</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>POST_NOTIFICATIONS</code><br>通知</td>
-      <td>在你设定的时间显示日程提醒，以及你主动启动的专注计时状态。可在系统设置中随时关闭。</td>
-      <td><span class="tag">可选</span></td>
-    </tr>
-    <tr>
-      <td><code>SCHEDULE_EXACT_ALARM</code><br>精确闹钟</td>
-      <td>让提醒在息屏状态下准点触发，而不是被系统延后。不使用该项时，提醒可能延迟数分钟。</td>
-      <td><span class="tag">可选</span></td>
-    </tr>
-    <tr>
-      <td><code>RECEIVE_BOOT_COMPLETED</code><br>开机自启</td>
-      <td>设备重启后恢复你此前设置的提醒，避免提醒丢失。</td>
-      <td><span class="tag">可选</span></td>
-    </tr>
-    <tr>
-      <td><code>READ_CALENDAR</code><br><code>WRITE_CALENDAR</code><br>日历读写</td>
-      <td>仅在你主动开启“日历同步”并授权后使用：读取本机可写日历，并把本应用任务的名称、时间、提醒写入其中。应用不会读取与任务无关的日程内容用于其他目的。</td>
-      <td><span class="tag">可选</span></td>
-    </tr>
-    <tr>
-      <td><code>FOREGROUND_SERVICE</code><br><code>FOREGROUND_SERVICE_SPECIAL_USE</code><br>前台服务</td>
-      <td>在你主动开始专注计时后，于通知栏常驻显示剩余时间与进度，计时结束即自动停止。</td>
-      <td><span class="tag">可选</span></td>
-    </tr>
-    <tr>
-      <td><code>POST_PROMOTED_NOTIFICATIONS</code><br>推广通知</td>
-      <td>让进行中的专注计时在锁屏与通知栏顶部以实时进度展示。不会用于发送广告、营销或活动推广。</td>
-      <td><span class="tag">可选</span></td>
-    </tr>
-    <tr>
-      <td>网络权限</td>
-      <td>本应用不申请网络权限，不具备联网能力。</td>
-      <td><span class="tag no">未申请</span></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2><span class="n">4</span>通知与系统日历</h2>
-<p>通知和准时提醒用于显示你设置的任务提醒，以及你主动启动的专注计时。设备重启后，应用会尝试恢复已有提醒。</p>
-<p>只有在你开启日历同步并授予日历权限后，应用才会读取本机可写日历并同步任务事件。版本升级时，如果日历授权仍然有效，应用可清理自己此前写入的提醒。你可以关闭该功能，或在系统设置中撤销授权。</p>
-
-<h2><span class="n">5</span>剪贴板、文件与外部 AI</h2>
-<p>只有在你点击复制或粘贴时，才会使用剪贴板。导入和导出功能只访问你主动选中的文件。</p>
-<p>应用内提供了跳转豆包、DeepSeek 等外部 AI 服务的入口。这些服务在系统浏览器中打开，你主动粘贴并发送的内容由对应服务方按其隐私政策处理。本应用不会自动把计划内容发送给任何外部 AI。</p>
-
-<h2><span class="n">6</span>第三方共享</h2>
-<p>本应用不集成第三方 SDK，不向任何第三方出售、交换或提供你的个人信息。你自行导出或分享的备份文件、系统日历日程，由你自己决定其流向。</p>
-
-<p>本隐私政策网页托管于 GitHub Pages。访问网页时，GitHub 会为安全目的记录访问者 IP 地址；这与本应用在手机内离线处理任务数据是不同的场景。详情见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
-
-<h2><span class="n">7</span>你的权利</h2>
-<ul>
-  <li><strong>查看与修改</strong>：全部数据在应用内可见、可编辑。</li>
-  <li><strong>删除</strong>：可在应用内删除单条内容、清空回收站，或在系统设置中清除应用数据，删除后不可恢复。</li>
-  <li><strong>撤回授权</strong>：在系统「设置 → 应用 → BB助手」中管理可撤回的权限、通知和特殊访问授权；也可在应用内关闭相应功能，不影响本机基础功能。</li>
-  <li><strong>导出</strong>：你可随时导出自己的数据带走。</li>
-</ul>
-
-<h2><span class="n">8</span>未成年人保护</h2>
-<p>本应用为通用效率工具，不针对未成年人设计，不收集任何个人信息，也不含付费、社交或内容分发功能。未成年人可在监护人指导下使用。</p>
-
-<h2><span class="n">9</span>政策更新</h2>
-<p>如本政策发生变更，我们会在本页面更新版本与日期。涉及权限范围或数据处理方式的重大变更，会在应用内以显著方式提示。</p>
-
-<h2><span class="n">10</span>联系我们</h2>
-<p>如对本政策有疑问、意见或投诉，或需要行使上述权利，可通过以下方式联系开发者：</p>
-<p>电子邮箱：<a href="mailto:364045536@qq.com">364045536@qq.com</a></p>
-<p>我们会在收到后 15 个工作日内回复。</p>
-
-<div class="note">
-  排期、目标、打卡和计划导入可在本机使用。通知、准时提醒和系统日历等功能的使用情况，以当前安装版本及系统授权状态为准。
-</div>
-
-<footer>
-  BB助手 · 应用包名 com.thomas.bbplanner　·　本页可公开访问，无需登录
-</footer>
-
-</div>
-</body>
-</html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="policy-sha256" content="4dcde9fde375ef5c89e60cd3a45a12990787e7e1743b0ca0e99bbe7f8e3ec5b6"><title>BB小助手 隐私政策</title><meta name="description" content="排期、目标、打卡和计划导入可在本机使用。本应用不申请网络权限，没有账号登录或云同步，不集成广告、统计或第三方推送 SDK。"><style>html{color-scheme:light dark}body{margin:0;background:#fff;color:#252230;font:16px/1.85 system-ui,"Microsoft YaHei",sans-serif}main{max-width:760px;margin:auto;padding:36px 22px 64px}h1{font-size:27px;line-height:1.4}h2{font-size:19px;margin:32px 0 12px}p{margin:0 0 14px;overflow-wrap:anywhere}.meta,footer{font-size:14px;color:#666170}.summary{background:#f5f2ff;border-radius:12px;padding:16px}a{color:#6750D8}footer{border-top:1px solid #eee;margin-top:32px;padding-top:18px}@media(prefers-color-scheme:dark){body{background:#18161d;color:#eeebf5}.meta,footer{color:#bdb8ca}.summary{background:#292338}a{color:#c3b4ff}}@media(max-width:400px){main{padding:24px 18px 48px}h1{font-size:23px}}</style></head><body><main>
+<h1>BB小助手 隐私政策</h1><p class="meta">版本：2026-11-25 · 生效及更新日期：2026 年 11 月 25 日<br>应用包名：com.thomas.bbplanner · 个人开发者：何波</p>
+<p class="summary">排期、目标、打卡和计划导入可在本机使用。本应用不申请网络权限，没有账号登录或云同步，不集成广告、统计或第三方推送 SDK。</p>
+<section><h2>1. 开发者与适用范围</h2><p>BB小助手（com.thomas.bbplanner）由个人开发者何波开发和维护。本政策说明 Android 版应用及本隐私政策网页的信息处理方式。</p></section>
+<section><h2>2. 本机资料与删除</h2><p>任务、目标、打卡、附件、计划原文和草稿保存在应用私有空间，用于显示和管理你的安排，不会由本应用上传服务器。你可以在应用内修改、删除内容并清空回收站，或在系统设置清除应用数据。另存的备份和已写入系统日历的日程需由你另行管理。</p><p>应用不主动获取通讯录、位置、短信、设备唯一标识符或系统照片库。导入、导出及附件操作只访问你主动选择或提供的内容。</p></section>
+<section><h2>3. 隐私选择与可选功能</h2><p>首次使用或政策发生需要重新告知的变化时，应用展示本政策。未选择或选择“暂不同意”时，不启动通知提醒、专注通知和系统日历访问；本机排期、目标、打卡和计划导入仍可使用。</p><p>同意本政策不会自动授予系统权限。通知、准时提醒和系统日历分别在你使用相关功能时按需授权；拒绝某项权限不影响无关功能。可从“设置 → 隐私政策与反馈”撤回同意，也可在系统设置管理通知、权限和特殊访问授权。撤回后，应用停止相关模块的新处理，不自动删除你已保存的系统日历日程。</p></section>
+<section><h2>4. 通知、精确闹钟与专注计时</h2><p>POST_NOTIFICATIONS 用于你设置的任务到点提醒，以及主动启动的专注计时通知。SCHEDULE_EXACT_ALARM 用于准时触发；未获授权时可能使用系统允许的非精确提醒，具体延迟取决于系统。</p><p>RECEIVE_BOOT_COMPLETED 用于重启后恢复此前已启用的提醒。FOREGROUND_SERVICE 与 FOREGROUND_SERVICE_SPECIAL_USE 用于进行中的专注计时服务；计时结束或停止时结束服务。POST_PROMOTED_NOTIFICATIONS 用于系统支持时展示专注实时进度，不用于广告或营销。</p><p>上述功能可以不使用。部分权限由系统安装时授予，不会单独弹出授权窗口；通知和特殊访问可在系统设置中管理。息屏、后台及省电策略可能影响提醒，应用不承诺任何设备都能准时送达。</p></section>
+<section><h2>5. 系统日历</h2><p>只有同意本政策、主动开启系统日历提醒并授予 READ_CALENDAR / WRITE_CALENDAR 后，应用才读取可写日历信息，并批量写入、核对、改期或撤回本应用任务对应的日程与提醒。读取的内容包括本应用关联事件的名称、时间、提醒和触发状态，用于防止重复提醒及保持同步。</p><p>应用通过自己的关联标记限制事件管理范围，不将其他日程导入计划，也不上传日历数据。清理历史版本写入的提醒同样受隐私选择和系统权限约束。关闭功能或撤回权限后，不再继续自动同步；此前已写入系统日历的内容可能仍由系统保留和提醒。</p></section>
+<section><h2>6. 剪贴板、文件和外部 AI</h2><p>只有点击复制或粘贴时才使用剪贴板。导入和导出使用系统文件选择器，不申请全面存储访问。</p><p>豆包、DeepSeek 等入口在外部浏览器打开。你主动粘贴并发送的内容由对应服务按其政策处理；本应用不自动发送计划，不在应用内请求外部 AI 服务。打开隐私政策网页也交由外部浏览器处理，不会为此给本应用增加网络权限。</p></section>
+<section><h2>7. 本地诊断与主动反馈</h2><p>同意后，应用在本机保存数量受限的操作与提醒记录，用于排查故障。只有你主动导出诊断，才生成可能包含机型、系统版本、授权状态、时间和操作记录的文件；文件不会自动发送。请先检查文件，再决定是否通过邮件等方式提供给开发者。撤回同意后不再新增这些诊断记录，可通过清除应用数据删除已有本地记录。</p></section>
+<section><h2>8. 共享与网页托管</h2><p>应用不向第三方出售或自动提供你的计划资料。你主动导出文件、写入系统日历或在外部服务发送内容时，相关系统、日历账号或服务可能按其设置及政策处理这些内容。</p><p>本政策网页使用 GitHub Pages 托管。访问网页时，GitHub 会为安全目的记录访问者 IP 地址。这属于网页托管行为，与手机应用离线保存计划是不同场景；可查阅 GitHub 隐私声明。</p></section>
+<section><h2>9. 你的权利与未成年人</h2><p>你可以查看、修改、导出或删除自己的计划，撤回同意和系统授权，并通过下方邮箱提出问题。清除应用数据或永久删除内容后可能无法恢复，另存的备份不随应用数据自动删除。</p><p>本应用是通用效率工具，没有账号、付费或社交功能。未成年人可在监护人指导下使用；请勿向外部 AI 或反馈文件提供不必要的个人信息。</p></section>
+<section><h2>10. 政策更新与联系</h2><p>政策更新会在本页面标明版本和日期。涉及处理目的、方式或范围的重大变化，会在应用内重新提示阅读和选择。</p><p>开发者：何波（个人开发者）。联系邮箱：364045536@qq.com。我们会在收到问题后 15 个工作日内答复。</p></section>
+<p>联系邮箱：<a href="mailto:364045536@qq.com">364045536@qq.com</a></p>
+<p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a></p>
+<footer>BB小助手 · com.thomas.bbplanner · 本页公开访问，无需登录</footer></main></body></html>
